@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE382EE2640208500A6F5DA /* ChatBarAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE382ED2640208500A6F5DA /* ChatBarAnimationApp.swift */; };
+		FAE382F02640208500A6F5DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE382EF2640208500A6F5DA /* ContentView.swift */; };
+		FAE382F22640208600A6F5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE382F12640208600A6F5DA /* Assets.xcassets */; };
+		FAE382F52640208600A6F5DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE382F42640208600A6F5DA /* Preview Assets.xcassets */; };
+		FAE382FD264020AB00A6F5DA /* AttachmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE382FC264020AB00A6F5DA /* AttachmentButton.swift */; };
+		FAE382FF26402A4D00A6F5DA /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE382FE26402A4D00A6F5DA /* ImagePickerView.swift */; };
+		FAE3830126402A8700A6F5DA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3830026402A8700A6F5DA /* Coordinator.swift */; };
+		FAE3830326403DCE00A6F5DA /* FetchedContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3830226403DCE00A6F5DA /* FetchedContacts.swift */; };
+		FAE3830526403F0A00A6F5DA /* DetailedContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3830426403F0A00A6F5DA /* DetailedContactView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE382EA2640208500A6F5DA /* ChatBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE382ED2640208500A6F5DA /* ChatBarAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBarAnimationApp.swift; sourceTree = "<group>"; };
+		FAE382EF2640208500A6F5DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE382F12640208600A6F5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE382F42640208600A6F5DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAE382F62640208600A6F5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE382FC264020AB00A6F5DA /* AttachmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentButton.swift; sourceTree = "<group>"; };
+		FAE382FE26402A4D00A6F5DA /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		FAE3830026402A8700A6F5DA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FAE3830226403DCE00A6F5DA /* FetchedContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedContacts.swift; sourceTree = "<group>"; };
+		FAE3830426403F0A00A6F5DA /* DetailedContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedContactView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE382E72640208500A6F5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE382E12640208500A6F5DA = {
+			isa = PBXGroup;
+			children = (
+				FAE382EC2640208500A6F5DA /* ChatBarAnimation */,
+				FAE382EB2640208500A6F5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE382EB2640208500A6F5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE382EA2640208500A6F5DA /* ChatBarAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE382EC2640208500A6F5DA /* ChatBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE382ED2640208500A6F5DA /* ChatBarAnimationApp.swift */,
+				FAE382EF2640208500A6F5DA /* ContentView.swift */,
+				FAE382F12640208600A6F5DA /* Assets.xcassets */,
+				FAE382F62640208600A6F5DA /* Info.plist */,
+				FAE382F32640208600A6F5DA /* Preview Content */,
+				FAE382FC264020AB00A6F5DA /* AttachmentButton.swift */,
+				FAE382FE26402A4D00A6F5DA /* ImagePickerView.swift */,
+				FAE3830026402A8700A6F5DA /* Coordinator.swift */,
+				FAE3830226403DCE00A6F5DA /* FetchedContacts.swift */,
+				FAE3830426403F0A00A6F5DA /* DetailedContactView.swift */,
+			);
+			path = ChatBarAnimation;
+			sourceTree = "<group>";
+		};
+		FAE382F32640208600A6F5DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE382F42640208600A6F5DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE382E92640208500A6F5DA /* ChatBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE382F92640208600A6F5DA /* Build configuration list for PBXNativeTarget "ChatBarAnimation" */;
+			buildPhases = (
+				FAE382E62640208500A6F5DA /* Sources */,
+				FAE382E72640208500A6F5DA /* Frameworks */,
+				FAE382E82640208500A6F5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatBarAnimation;
+			productName = ChatBarAnimation;
+			productReference = FAE382EA2640208500A6F5DA /* ChatBarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE382E22640208500A6F5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAE382E92640208500A6F5DA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FAE382E52640208500A6F5DA /* Build configuration list for PBXProject "ChatBarAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE382E12640208500A6F5DA;
+			productRefGroup = FAE382EB2640208500A6F5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE382E92640208500A6F5DA /* ChatBarAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE382E82640208500A6F5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE382F52640208600A6F5DA /* Preview Assets.xcassets in Resources */,
+				FAE382F22640208600A6F5DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE382E62640208500A6F5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3830326403DCE00A6F5DA /* FetchedContacts.swift in Sources */,
+				FAE382FF26402A4D00A6F5DA /* ImagePickerView.swift in Sources */,
+				FAE382F02640208500A6F5DA /* ContentView.swift in Sources */,
+				FAE3830126402A8700A6F5DA /* Coordinator.swift in Sources */,
+				FAE3830526403F0A00A6F5DA /* DetailedContactView.swift in Sources */,
+				FAE382FD264020AB00A6F5DA /* AttachmentButton.swift in Sources */,
+				FAE382EE2640208500A6F5DA /* ChatBarAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAE382F72640208600A6F5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE382F82640208600A6F5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE382FA2640208600A6F5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatBarAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 933M898TAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChatBarAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neri.swiftuiCalculator.ChatBarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE382FB2640208600A6F5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatBarAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 933M898TAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChatBarAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neri.swiftuiCalculator.ChatBarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE382E52640208500A6F5DA /* Build configuration list for PBXProject "ChatBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE382F72640208600A6F5DA /* Debug */,
+				FAE382F82640208600A6F5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE382F92640208600A6F5DA /* Build configuration list for PBXNativeTarget "ChatBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE382FA2640208600A6F5DA /* Debug */,
+				FAE382FB2640208600A6F5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE382E22640208500A6F5DA /* Project object */;
+}
